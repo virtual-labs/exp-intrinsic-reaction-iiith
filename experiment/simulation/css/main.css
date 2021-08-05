@@ -1,1 +1,31 @@
-/* You CSS goes in here */
+.ChemDoodleWebComponent {
+  border: none !important;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.arrow {
+  height: 3rem;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .arrow {
+    height: 2rem;
+  }
+}
+
+.arrow-left {
+  transform: rotate(180deg);
+}
+
+.v-button {
+  background: #48b8d0;
+}
