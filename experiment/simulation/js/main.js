@@ -1,3 +1,5 @@
+"use strict";
+
 import data from "./data.js";
 
 document.querySelector("#left").addEventListener("click", () => {
@@ -17,7 +19,7 @@ let myChart = null;
 let current = 0;
 
 const initChart = () => {
-  let xyValues = Object.keys(data)
+  const xyValues = Object.keys(data)
     .map((key) => ({
       x: parseInt(key),
       y: data[key]["energy"],
@@ -72,7 +74,7 @@ const highlightChart = () => {
     myChart.data.datasets[0].pointBackgroundColor = [];
     myChart.data.datasets[0].pointRadius = [];
     for (let i = 0; i < myChart.data.datasets[0].data.length; i++) {
-      if (myChart.data.datasets[0].data[i] == data[current]["energy"]) {
+      if (myChart.data.datasets[0].data[i] === data[current]["energy"]) {
         myChart.data.datasets[0].pointRadius[i] = 5;
         myChart.data.datasets[0].pointBackgroundColor[i] = "red";
       } else {
@@ -89,12 +91,12 @@ if (window.innerWidth < 900) {
   width = window.innerWidth;
   height = 300;
 }
-let movie = new ChemDoodle.MovieCanvas3D("element", width, height);
+const movie = new ChemDoodle.MovieCanvas3D("element", width, height);
 
 const setMolecule = () => {
   movie.clear();
   movie.frames = [];
-  if (data != null) {
+  if (data !== null) {
     movie.addFrame([ChemDoodle.readXYZ(data[current]["geometry"])], []);
     movie.styles.set3DRepresentation("Ball and Stick");
     movie.styles.atoms_displayLabels_3D = true;
