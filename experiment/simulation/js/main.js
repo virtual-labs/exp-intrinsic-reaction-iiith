@@ -9,7 +9,7 @@ document.querySelector("#left").addEventListener("click", () => {
   }
 });
 document.querySelector("#right").addEventListener("click", () => {
-  if (current < 5) {
+  if (current < 11) {
     current++;
     triggerUpdate();
   }
