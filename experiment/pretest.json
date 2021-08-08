@@ -2,38 +2,72 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the intrinsic reaction coordinate (IRC)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It is the steepest descent path path from a transition state connecting to the corresponding minima",
+        "b": "It is the path connecting the reactant and products on the potential energy surface",
+        "c": "It is the mass weighted steepest descent path from a transition state connecting to the corresponding minima",
+        "d": "It is the path connecting two transition states on the potential energy surface"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "IRC is defined the mass weighted steepest distance path from the transition state connecting to the corresponding minima."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "Are IRC and minimum energy path (MEP) same?",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "b": "IRC is defined as the minimum energy path (MEP) in  mass weighted coordinates."
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The eigenvector corresponding to which of the following defines the initial condition for IRP?",
+      "answers": {
+        "a": "Eigenvector corresponding to all the 3N-6 frequencies",
+        "b": "Eigenvector corresponding to the imaginary frequency",
+        "c": "Eigenvectors are not required for defining the initial condition",
+        "d": "Eigenvector corresponding to the largest frequency"
+      },
+      "explanations": {
+        "b": "The first step for an IRP is taken along the eigenvector corresponding to the imaginary frequency."
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The eigenvectors are obtained by:",
+      "answers": {
+        "a": "Diagonalizing the force constant matrix",
+        "b": "Taking an inverse of the force constant matrix followed by diagonalization",
+        "c": "Linear combination of cartesian coordinates of the atoms",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The hessian matrix is diagonalized to obtain the set of eigenvectors."
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "The change is curvature along the IRP is",
+      "answers": {
+        "a": "Positive to negative",
+        "b": "Positive to positive",
+        "c": "Negative to negative",
+        "d": "Negative to positive"
+      },
+      "explanations": {
+        "d": "The transition state has one negative curvature and this changes to positive on reaching the minima."
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
     }
   ]
 }
