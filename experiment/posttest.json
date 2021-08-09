@@ -13,7 +13,7 @@
         "c": "The transition state has the highest energy on the IRP path and the energy decreases on going towards the minima."
       },
       "correctAnswer": "c",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
       "question": "The IRC s, can be expressed as:",
@@ -24,7 +24,7 @@
         "d": "s=∑sjqj"
       },
       "correctAnswer": "d",
-      "difficulty": ""
+      "difficulty": "intermediate"
     },
     {
       "question": "On moving along the IRP, the energy along the remaining 3N-7 (non-linear molecules)/3N-6 (linear molecules) coordinates is:",
@@ -38,7 +38,7 @@
         "b": "The energy along the remaining 3N-7/3N-6 directions are minimized along the IRP."
       },
       "correctAnswer": "b",
-      "difficulty": ""
+      "difficulty": "intermediate"
     },
     {
       "question": "The gradient is:",
@@ -52,7 +52,7 @@
         "a": "The gradient is largest along the IRP and zero along the remaining coordinates because at each point on the IRC, we minimize the potential energy along the remaining 3N-6/3N-7 directions."
       },
       "correctAnswer": "a",
-      "difficulty": ""
+      "difficulty": "advanced"
     },
     {
       "question": "The IRP is followed until:",
@@ -66,7 +66,7 @@
         "d": "The IRP is followed until the gradient along the IRP becomes zero i.e. one has reached a stationary point on the PES."
       },
       "correctAnswer": "d",
-      "difficulty": ""
+      "difficulty": "beginner"
     }
   ]
 }
