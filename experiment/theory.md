@@ -1,4 +1,4 @@
-A minimum energy path (MEP) is defined as the steepest-descent path on the potential energy surface from the transition state down towards a local minimum. An IRC path is defined similarly but in the mass-weighted coordinates, which means that instead of the steepest descent direction it follows that of the maximum instantaneous acceleration. This makes IRC somewhat related to the Molecular Dynamics method. The energy profile is obtained as well as the length and curvature properties of the path, providing the basic quantities for an analysis of the reaction path. To construct an Intrinsic reaction path, one proceeds as follows:
+A minimum energy path (MEP) is defined as the steepest-descent path on the potential energy surface from the transition state down towards a local minimum. An IRC path is defined similarly but in the mass-weighted coordinates, which means that instead of the steepest descent direction, it follows that of the maximum instantaneous acceleration. This makes IRC somewhat related to the Molecular Dynamics method. The energy profile, as well as the length and curvature properties of the path, are obtained, providing the basic quantities for an analysis of the reaction path. To construct an Intrinsic reaction path, one proceeds as follows:
 
 ### Step 1:
 
@@ -6,7 +6,7 @@ Once a transition state (TS) has been located, its mass-weighted Hessian matrix 
 
 ### Step 2:
 
-One takes a small step (i.e., a displacement of the Cartesian coordinates {qj} of the nuclei having a total length L ) along the direction s , and this direction is taken to define the first step along the intrinsic reaction coordinate (IRC) that will eventually lead to the IRP. When s is expressed in terms of the its components {sj} along the Cartesian coordinates {qj},
+One takes a small step (i.e., a displacement of the Cartesian coordinates {qj} of the nuclei having a total length L ) along the direction s, and this direction is taken to define the first step along the intrinsic reaction coordinate (IRC) that will eventually lead to the IRP. When s is expressed in terms of its components {sj} along the Cartesian coordinates {qj},
 s=∑sjqj
 
 The displacements {δqj} can be expressed as δqj =Lsj
