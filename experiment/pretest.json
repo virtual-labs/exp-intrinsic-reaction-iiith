@@ -13,7 +13,7 @@
         "c": "IRC is defined the mass weighted steepest distance path from the transition state connecting to the corresponding minima."
       },
       "correctAnswer": "c",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
       "question": "Are IRC and minimum energy path (MEP) same?",
@@ -25,7 +25,7 @@
         "b": "IRC is defined as the minimum energy path (MEP) in  mass weighted coordinates."
       },
       "correctAnswer": "b",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
       "question": "The eigenvector corresponding to which of the following defines the initial condition for IRP?",
@@ -39,7 +39,7 @@
         "b": "The first step for an IRP is taken along the eigenvector corresponding to the imaginary frequency."
       },
       "correctAnswer": "b",
-      "difficulty": ""
+      "difficulty": "intermediate"
     },
     {
       "question": "The eigenvectors are obtained by:",
@@ -53,7 +53,7 @@
         "a": "The hessian matrix is diagonalized to obtain the set of eigenvectors."
       },
       "correctAnswer": "a",
-      "difficulty": ""
+      "difficulty": "intermediate"
     },
     {
       "question": "The change is curvature along the IRP is",
@@ -67,7 +67,7 @@
         "d": "The transition state has one negative curvature and this changes to positive on reaching the minima."
       },
       "correctAnswer": "d",
-      "difficulty": ""
+      "difficulty": "advanced"
     }
   ]
 }
