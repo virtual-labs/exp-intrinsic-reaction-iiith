@@ -1,14 +1,48 @@
 "use strict";
 
-import data from "./data.js";
+import data, { instructions } from "./data.js";
+
+let currentInstructionIndex = -1;
+let sleepTime = 3500;
+
+const setInstruction = (index) => {
+  if (index < instructions.length && currentInstructionIndex < index) {
+    currentInstructionIndex = index;
+    document.getElementById("instructions").innerHTML =
+      instructions[currentInstructionIndex].message;
+
+    instructions[currentInstructionIndex].elementId.forEach((id, ind) => {
+      if (ind === 0)
+        document.getElementById(id).scrollIntoView({
+          behavior: "smooth",
+        });
+      document.getElementById(id).classList.add("highlight");
+    });
+    sleep(sleepTime - 600).then(() =>
+      instructions[currentInstructionIndex].elementId.forEach((id) =>
+        document.getElementById(id).classList.remove("highlight")
+      )
+    );
+  }
+};
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const setMultipleInstructions = (indexes) =>
+  indexes.forEach((val, ind) =>
+    sleep(sleepTime * ind).then(() => setInstruction(val))
+  );
 
 document.querySelector("#left").addEventListener("click", () => {
+  setInstruction(4);
   if (current > -5) {
     current--;
     triggerUpdate();
   }
 });
 document.querySelector("#right").addEventListener("click", () => {
+  setMultipleInstructions([5, 6, 7]);
+
   if (current < 11) {
     current++;
     triggerUpdate();
@@ -113,3 +147,5 @@ const triggerUpdate = () => {
 
 initChart();
 triggerUpdate();
+
+setMultipleInstructions([0, 1, 2, 3]);
