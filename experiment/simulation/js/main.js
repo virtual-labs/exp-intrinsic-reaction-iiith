@@ -149,3 +149,4 @@ initChart();
 triggerUpdate();
 
 setMultipleInstructions([0, 1, 2, 3]);
+
