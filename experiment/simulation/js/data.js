@@ -86,4 +86,43 @@ const data = {
   },
 };
 
+export const instructions = [
+  {
+    message: "In the following graph, 0 represents transition state",
+    elementId: ["myChart"],
+  },
+  {
+    message: "0 to 11 represents transition from transition state to products",
+    elementId: ["myChart"],
+  },
+  {
+    message: "0 to -5 represents transition from transition state to reactants",
+    elementId: ["myChart"],
+  },
+  {
+    message:
+      "Click on the left arrow to move from transition state to reactants",
+    elementId: ["left"],
+  },
+  {
+    message:
+      "Click on the right arrow to move from transition state to products",
+    elementId: ["right"],
+  },
+  {
+    message: "Perform this process repeatedly until endpoint is reached",
+    elementId: ["left", "right"],
+  },
+  {
+    message:
+      "Observe how Carbon moves towards Chlorine or Bromine depending on the transition direction",
+    elementId: ["element"],
+  },
+  {
+    message:
+      "Observe the change in energy while moving towards reactants, or products",
+    elementId: ["myChart"],
+  },
+];
+
 export default data;
