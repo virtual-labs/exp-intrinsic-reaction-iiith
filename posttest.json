@@ -1,0 +1,72 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The change in energy along the IRP is:",
+      "answers": {
+        "a": "Energy increases on following the IRP from the TS to the minima",
+        "b": "Energy can increase or decrease depending upon the geometry of the transition state",
+        "c": "Energy decreases on following the IRP from the TS to the minima",
+        "d": "Energy remains constant throughout the IRP path"
+      },
+      "explanations": {
+        "c": "The transition state has the highest energy on the IRP path and the energy decreases on going towards the minima."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The IRC s, can be expressed as:",
+      "answers": {
+        "a": "s=2*∑sjqj",
+        "b": "s=(∑sjqj)/2",
+        "c": "s=(∑sjqj)<sup>½</sup>",
+        "d": "s=∑sjqj"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "On moving along the IRP, the energy along the remaining 3N-7 (non-linear molecules)/3N-6 (linear molecules) coordinates is:",
+      "answers": {
+        "a": "maximized",
+        "b": "minimized",
+        "c": "maximized for half of the coordinates",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "b": "The energy along the remaining 3N-7/3N-6 directions are minimized along the IRP."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The gradient is:",
+      "answers": {
+        "a": "Largest along the IRP and zero for the remaining 3N-6/3N-7 directions",
+        "b": "Smallest along the IRP",
+        "c": "Zero along the IRP and non-zero along the remaining 3N-6/3N-7 directions",
+        "d": "Cannot be defined"
+      },
+      "explanations": {
+        "a": "The gradient is largest along the IRP and zero along the remaining coordinates because at each point on the IRC, we minimize the potential energy along the remaining 3N-6/3N-7 directions."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The IRP is followed until:",
+      "answers": {
+        "a": "The gradient along the IRP is maximum",
+        "b": "The gradient along the IRP is negative",
+        "c": "The gradient along the IRP cannot be defined",
+        "d": "The gradient along the IRP becomes zero"
+      },
+      "explanations": {
+        "d": "The IRP is followed until the gradient along the IRP becomes zero i.e. one has reached a stationary point on the PES."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
