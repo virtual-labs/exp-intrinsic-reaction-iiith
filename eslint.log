@@ -1,0 +1,8 @@
+
+/home/runner/work/exp-intrinsic-reaction-iiith/exp-intrinsic-reaction-iiith/experiment/simulation/js/main.js
+   64:17  warning  'Chart' is not defined       no-undef
+  128:19  warning  'ChemDoodle' is not defined  no-undef
+  134:21  warning  'ChemDoodle' is not defined  no-undef
+
+✖ 3 problems (0 errors, 3 warnings)
+
